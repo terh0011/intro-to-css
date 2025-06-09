@@ -1,0 +1,67 @@
+/* Select body */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #7251B5;
+  }
+  
+  /* Select h1, h2 and h3 */
+  h1, h2, h3 {
+    margin-bottom: 0;
+  }
+  
+  /* Select the id company-name */
+  #company-name {
+    font-size: 1.5rem;
+  }
+  
+  /* Select header and footer */
+  header, footer {
+    background-color: #000;
+    color: #DEC9E9;
+  }
+  
+  /* Select the class wrapper */
+  .wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  /* Select both list types (ul and ol) */
+  ul, ol {
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Use descendant selector to select links within the navigation */
+  nav a {
+    color: #DEC9E9;
+    text-decoration: none;
+  }
+  
+  /* Use adjacent selector to target the section immediately beside the section with id #intro */
+  #intro + section {
+    background-color: #000;
+    color: #DEC9E9;
+  }
+  
+  /* Use a child selector to target the img tag directly within the article tags */
+  article > img {
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 1em;
+  }
+  
+  /* Select every even numbered li within the ordered list */
+  ol li:nth-child(even) {
+    color: #dc33dc;
+  }
+  
+  /* Use a child selector to target the img tag directly within the main element */
+  main > img {
+    width: 100%;
+  }
+  
